@@ -7,7 +7,7 @@ create table utilisateur
 	mot_de_passe CHAR(60) not null,
 );
 
-create table categorie
+create table categories
 (
 	id SERIAL primary key,
 	nom VARCHAR(255) not null
